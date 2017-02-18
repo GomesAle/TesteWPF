@@ -24,10 +24,5 @@ namespace TesteWPF
         {
             InitializeComponent();
         }
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            this.Title = this.textBox.Text;
-        }
     }
 }
